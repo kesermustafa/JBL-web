@@ -189,6 +189,30 @@
   margin-top: 10px;
 }
 
+.favorite {
+  text-align: center;
+  padding: 10px 40px;
+}
+.favorite-card {
+  display: flex;
+  justify-content: center;
+}
+.favorite-card div {
+  display: flex;
+}
+.favorite-card img {
+  width: 200px;
+}
+.favorite-card .favorite-article {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 850px) {
+  .favorite .favorite-card div {
+    flex-direction: column;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
