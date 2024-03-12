@@ -4,6 +4,7 @@
 @import "button";
 @import "header";
 @import "home";
+@import "about";
 
 
 *{
@@ -49,6 +50,7 @@ body{
   background-color: var(--body-color);
   color: var(--text-color);
   font-family: "Poppins", sans-serif;
+
 }
 
 h1,h2,h3.h4{
