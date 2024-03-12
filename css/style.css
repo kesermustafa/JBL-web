@@ -213,6 +213,48 @@
   }
 }
 
+.model h2 {
+  text-align: center;
+}
+.model__container {
+  padding-top: 30px;
+}
+.model__content {
+  position: relative;
+  justify-self: center;
+}
+.model__img {
+  width: 290px;
+}
+.model__tooltip {
+  position: absolute;
+}
+.model__tooltip-text {
+  background: var(--gradient-color);
+  color: white;
+  white-space: nowrap;
+  padding: 6px 12px;
+  border-radius: 64px;
+  position: absolute;
+  transform: translate(-30px, -20px);
+}
+.model__tooltip-1 {
+  top: 88px;
+  left: 80px;
+}
+.model__tooltip-2 {
+  top: 16px;
+  right: 24px;
+}
+.model__tooltip-3 {
+  bottom: 28px;
+  right: 150px;
+}
+.model__tooltip-4 {
+  bottom: 100px;
+  left: 120px;
+}
+
 * {
   margin: 0;
   padding: 0;
