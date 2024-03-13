@@ -91,7 +91,6 @@
 
 .home__container {
   display: flex;
-  border: 1px solid red;
   padding: 112px 16px;
   position: relative;
 }
