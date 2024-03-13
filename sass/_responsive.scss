@@ -14,7 +14,22 @@
     }
   }
 
+  .sponsor__container {
+    grid-template-columns: repeat(1, max-content);
+  }
 
+  .sponsor__img {
+    width: 100px;}
+
+}
+
+@media screen and (max-width:576px) {
+  .sponsor__container {
+    grid-template-columns: repeat(1, max-content);
+  }
+  .sponsor__img {
+    width: 120px;
+  }
 
 }
 
@@ -26,8 +41,6 @@
       justify-content: center;
     }
   }
-
-
 
 }
 
