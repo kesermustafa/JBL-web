@@ -254,6 +254,22 @@
   left: 120px;
 }
 
+.sponsor__img {
+  width: 150px;
+  cursor: pointer;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+.sponsor__img:hover {
+  transform: scale(1.1);
+}
+.sponsor__container {
+  padding-block: 8px 72px;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;
