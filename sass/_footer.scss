@@ -39,7 +39,7 @@
   &__group{
     display: grid;
     place-items: center;
-    gap: 25px;
+
     input{
       border: none;
       outline: none;
@@ -55,8 +55,11 @@
     button{
       border: none;
       cursor: pointer;
+
     }
   }
+
+
 
   &__social{
     display: flex;

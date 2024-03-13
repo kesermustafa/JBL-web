@@ -7,17 +7,24 @@
   top: 0;
   left: 0;
   z-index: 99;
+  backdrop-filter: blur(15px);
+
 
   .nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: var(--header-height);
 
+    position: relative;
     &__logo{
       color: var(--first-color);
       font-size: 30px;
       font-weight: var(--font-semi-bold);
+      position: absolute;
+      left: 10px;
+      top: 8px;
+
     }
 
     &__menu{
@@ -73,9 +80,23 @@
         color: var(--first-color);
       }
     }
+  }
+}
 
 
+@media screen and (max-width: 850px) {
+    .header .nav__menu{
+      display: none;
+    }
 
+  .nav{
+    .nav__logo{
+      margin: auto;
+      font-size: 50px;
+      position: relative;
+      left: auto;
+      top: auto;
+    }
   }
 }
 

@@ -1,7 +1,11 @@
 .about{
-  &__container{
 
+  margin-bottom: 50px;
+
+  .section__title{
+    margin-bottom: 24px;
   }
+
 
   &__data{
     text-align: center;
@@ -17,5 +21,8 @@
     margin-bottom: 40px;;
     margin-top: 10px;
   }
+
+
+
 
 }
