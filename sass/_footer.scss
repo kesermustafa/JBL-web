@@ -1,10 +1,10 @@
 .footer{
   display: grid;
   margin-left: 40px;
+  margin-top: 100px;
 
   &__container{
     row-gap: 64px;
-
   }
 
   &__logo{
@@ -67,6 +67,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 30px;
     div{
       display: flex;
       gap: 20px;

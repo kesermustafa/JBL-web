@@ -9,22 +9,33 @@
       display: flex;
       gap: 30px;
     }
+
+
+
+  }
+
+  .favorite-article{
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+    &:hover{
+      transform: scale(1.2);
+    }
     img{
       width: 200px;
-    }
 
-    .favorite-article{
-      display: flex;
-      flex-direction: column;
+
+
     }
   }
 
-  @media screen and (max-width: 850px){
-    .favorite{
-      &-card{
-        div{
-          flex-direction: column;
-        }
+}
+
+@media screen and (max-width: 850px){
+  .favorite{
+    &-card{
+      div{
+        flex-direction: column;
       }
     }
   }
